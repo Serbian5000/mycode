@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+"""99 Bottles of Beer looping challenge"""
+
+Bottlenum = 99
+Bottlenum -= 1
+
+for bottlenum in range(99): 
+    print("Bottlenum() + bottles of beer on the wall! Bottlenum() bottles of beer! You take one down, pass it around.")
